@@ -44,9 +44,6 @@ jobs:
         sfdx force:source:convert -d ./src
       displayName: Convert to deploy source
     - bash: 
-        sfdx force:mdapi:deploy -l RunLocalTests -c -d ./src -u prod -w 10
-      displayName: Run validation on source code
-    - bash: 
         sfdx force:mdapi:deploy -d ./src -u prod -w 10
       displayName: Deploy source code to Production
 - job: UATDeploy
