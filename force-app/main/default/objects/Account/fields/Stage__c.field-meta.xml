@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Detox</fullName>
+                <default>false</default>
+                <label>Detox</label>
+            </value>
+            <value>
+                <fullName>Residential</fullName>
+                <default>false</default>
+                <label>Residential</label>
+            </value>
+            <value>
+                <fullName>IOP with sober living</fullName>
+                <default>false</default>
+                <label>IOP with sober living</label>
+            </value>
+            <value>
+                <fullName>OP with sober living</fullName>
+                <default>false</default>
+                <label>OP with sober living</label>
+            </value>
+            <value>
+                <fullName>PHP with sober living</fullName>
+                <default>false</default>
+                <label>PHP with sober living</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
